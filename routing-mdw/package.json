@@ -1,0 +1,40 @@
+{
+  "name": "routing-mdw",
+  "version": "1.0.0",
+  "description": "project to practice routing & servicing using payload",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctshibas/node-assignment-3.git"
+  },
+  "keywords": [
+    "Node.js",
+    "express",
+    "routing",
+    "service",
+    "request",
+    "response",
+    "html",
+    "css",
+    "javascript",
+    "nodemon"
+  ],
+  "author": "Corneille Tshibasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctshibas/node-assignment-3/issues"
+  },
+  "homepage": "https://github.com/ctshibas/node-assignment-3#readme"
+}

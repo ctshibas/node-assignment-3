@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- the reason we strip '/public/' because the static plugin of express assumes the dir you specify -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a href="/users">Users</a></li>
+                <li class="main-header__item"><a class="active" href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome home</h1>
+        <p>List of places to go...nowhere</p>
+    </main>
+</body>
+
+</html>
