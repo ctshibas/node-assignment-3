@@ -3,7 +3,7 @@ const express = require('express');
 
 // installing 3rd-party modules
 const path = require('path');
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser'); /* not necessary */
 const dotenv = require('dotenv');
 
 /* Custom Modules */
